@@ -1,0 +1,93 @@
+body {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  margin: 3px auto 0; 
+  position: relative;
+}
+
+#mode {
+  float: right;
+  padding: 0.2rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: black;
+  color: white;
+  margin: 0rem 0.2rem;
+}
+#mode:hover {
+  cursor: pointer;
+}
+.container {
+  background-color: white;
+  border: 0.3rem solid darkblue;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+#heading {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 1rem;
+}
+
+#listItem1,
+#listItem2 {
+  display: flexbox;
+}
+
+#input,
+#output {
+  font-size: 1.2rem;
+  width: 8em;
+  margin: 0.2rem 0.5em;
+}
+
+#OutputUnit,
+#InputUnit {
+  width: 30%;
+  font-size: 1rem;
+  padding: 0.2rem;
+}
+
+#convert {
+  padding: 0.5rem 4rem;
+  margin: 1rem;
+  border: none;
+  background-color: green;
+  color: wheat;
+  font: bolder;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+
+#convert:hover {
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+}
+
+#developer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+/*Github Icon */
+#github,
+#linkedin {
+  height: 2rem;
+  margin: 0.2rem;
+}
+
+#github:hover,
+#linkedin:hover {
+  cursor: pointer;
+}
